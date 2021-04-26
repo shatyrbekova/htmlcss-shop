@@ -13,14 +13,22 @@ body{
     height:1200px;
     margin: 0 auto;
     background-color: white;
-    text-align: center;
    
 }
+
 .webp{
     width: 300px;
-    height:450px;
+    height:360px;
+    background-size: cover;
+    background-position: no-repeat;
     float: left;
     margin:15px;
+}
+
+.testo{
+     width:150px;
+     height: 100px;
+     margin-left: 15px;
 }
 
  .contain section{
@@ -30,9 +38,6 @@ body{
 
 .img1{
     background-image: url(../img/img1.webp);
-    background-size: cover;
-    background-position: no-repeat;
-
 }
 .img1:hover{
     background-image:url(../img/1-hover.webp);
@@ -40,50 +45,91 @@ body{
 
 .img2{
     background-image: url(../img/2.webp);
-    background-size: cover;
-    background-position: no-repeat;
 }
+
 .img2:hover{
     background-image:url(../img/2-hover.webp);
 }
 
 .img3{
     background-image: url(../img/img3.webp);
-    background-size: cover;
-    background-position: no-repeat;
 }
+
 .img3:hover{
     background-image:url(../img/3-hover.webp);
 }
+
 .img4{
     background-image: url(../img/img4.webp);
-    background-size: cover;
-    background-position: no-repeat;
 }
+
+
 .img4:hover{
     background-image:url(../img/4-hover.webp);
 }
+
 .img5{
     background-image: url(../img/img5.webp);
-    background-size: cover;
-    background-position: no-repeat;
 }
+
 .img5:hover{
     background-image:url(../img/5-hover.webp);
 }
+
 .img6{
     background-image: url(../img/img6.webp);
-    background-size: cover;
-    background-position: no-repeat;
 }
-.hearts{
-    display: none;
-    color:red;
-    font-size:30px;
-    position: absolute;
-    right:150px;
-    bottom: 0px;
-}
+
+
 .img6:hover{
     background-image:url(../img/6-hover.webp);
 }
+
+.discount{
+    position: absolute;
+    bottom:25px;
+    width:40px;
+    height: 26px;
+    background-color: red;
+    color:white;
+    padding:3px;
+}
+
+.cuore{
+    width:30px;
+    height:25px;
+    background-color: white;
+    position: absolute;
+    top:20px;
+    right:15px;
+    text-align: center;
+}
+
+.sostenibility{
+    position: absolute;
+    bottom: 25px;
+    right:  2px;
+    width: 90px;
+    height: 26px;
+    background-color: green;
+    color:white;
+    padding:3px;
+}
+
+.sostenibility1{
+    position: absolute;
+    bottom: 25px;
+    width: 90px;
+    height: 26px;
+    background-color: green;
+    color:white;
+    padding:3px;
+}
+
+.red-price{
+    color:red;
+}
+/* #green{
+    background-color: green;
+    width:250px;
+    height: 250px; */
